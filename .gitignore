@@ -1,0 +1,76 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+*.env
+
+# Secrets and credentials
+secrets.py
+secrets.json
+secrets.yaml
+secrets.yml
+config.py
+credentials.json
+credentials.yaml
+*.key
+*.pem
+*.p12
+*.pfx
+*.cert
+*.crt
+*.token
+
+# Trained model files (large binaries)
+model/*.joblib
+model/*.pkl
+model/*.h5
+model/*.pt
+model/*.pth
+model/*.bin
+*.joblib
+*.pkl
+
+# Dataset files (can be large or proprietary)
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+data/*.db
+data/*.sqlite
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
+.bob/
+
+# OS files
+desktop.ini
+ehthumbs.db
