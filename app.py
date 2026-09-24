@@ -957,7 +957,7 @@ def main():
     cols = st.columns(3)
     cols[0].caption("Stack: Python · Scikit-learn · XGBoost · Streamlit")
     cols[1].caption("Dataset: Kaggle — Loan Prediction Problem")
-    cols[2].caption("Built by: Anurag Joshi")
+    cols[2].caption("Built by: Akshata Kapre")
 
 
 if __name__ == "__main__":

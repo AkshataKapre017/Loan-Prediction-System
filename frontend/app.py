@@ -247,7 +247,7 @@ def main():
         st.caption(f"**Model:** {type(model).__name__}")
         st.caption(f"**Records:** {len(df):,}")
         st.caption("**Dataset:** Kaggle Loan Prediction")
-        st.caption("**Built by:** Anurag Joshi")
+        st.caption("**Built by:** Akshata Kapre")
 
     # ═══════════════════════════════════════════════════
     # SECTION 1 — EXECUTIVE OVERVIEW
@@ -558,7 +558,7 @@ def main():
     c1,c2,c3 = st.columns(3)
     c1.caption("Stack: Python · Scikit-learn · Streamlit")
     c2.caption("Dataset: Kaggle Loan Prediction Problem")
-    c3.caption("By: Anurag Joshi")
+    c3.caption("By: Akshata Kapre")
 
 if __name__ == "__main__":
     main()

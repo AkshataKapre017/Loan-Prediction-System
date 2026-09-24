@@ -149,7 +149,7 @@ def build_report():
     sub.runs[0].font.size = Pt(13)
 
     meta = doc.add_paragraph(
-        f'Author: Anurag Joshi  |  Date: {datetime.date.today().strftime("%B %d, %Y")}')
+        f'Author: Akshata Kapre  |  Date: {datetime.date.today().strftime("%B %d, %Y")}')
     meta.alignment = WD_ALIGN_PARAGRAPH.CENTER
     meta.runs[0].font.size = Pt(11)
 
@@ -329,7 +329,7 @@ def build_report():
     # ── Footer ─────────────────────────────────────────────────────────────
     doc.add_page_break()
     foot = doc.add_paragraph(
-        f'Project by Anurag Joshi  |  Dataset: Kaggle Loan Prediction Problem  |  '
+        f'Project by Akshata Kapre  |  Dataset: Kaggle Loan Prediction Problem  |  '
         f'Generated: {datetime.date.today()}')
     foot.alignment = WD_ALIGN_PARAGRAPH.CENTER
     foot.runs[0].font.size = Pt(9)

@@ -131,4 +131,4 @@ The prediction section takes applicant details and runs them through a trained M
 
 ---
 
-Made by **Anurag Joshi**
+Made by **Akshata Kapre**
